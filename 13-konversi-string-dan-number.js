@@ -1,5 +1,4 @@
 /*
-
 parseInt(string) = Mengkonversi dari string ke number (Bilangan bulat)
 parseFloat(string) = Mengkonversi dari string ke number (bilangan pecahan)
 Number(string) = Mengkonversi dari string ke number (bilangan bulat atau pecahan)
