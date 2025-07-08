@@ -4,23 +4,20 @@
 
 */
 
-const nilai = "A";
+const nilai = "E";
 
 switch(nilai){
     case "A":
-        console.log("WOW ANDA LULUS DENGAN BAIK");
+        console.log("Anda Lulus Dengan Baik");
         break;
-
     case "B":
     case "C":
-        console.log("ANDA LULUS");
+        console.log("Anda Lulus");
         break;
-        
     case "D":
-        console.log("ANDA TIDAK LULUS");
+        console.log("Anda Tidak Lulus");
         break;
     default:
-        console.log("MUNGKIN ANDA SALAH JURUSAN");
+        console.log("Mungkin Anda Salah Jurusan");
         
 }
-
