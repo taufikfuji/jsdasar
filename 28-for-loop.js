@@ -10,7 +10,7 @@ for(init statment;kondisi;post statement){
 - init statment akan dieksekusi hanya sekali di awal sebelum perulangan
 - Kondisi akan dilakukan pengecekan dalam setiap perulangan jika ture perluangan akan dilakukan jika false perlungan akan berhenti
 - Post statement akan dieksekusi setiap kali akhir perulangan
-- 
+
 
 */
 let counter = 1;
