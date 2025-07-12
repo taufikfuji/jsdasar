@@ -13,5 +13,7 @@ function register(name, gender = "UKNOWN"){
 }
 
 register();
+console.log("==================>");
 register ("FUJI", "MALE");
+console.log("==================>");
 register ("FUJI");
