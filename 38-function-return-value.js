@@ -40,7 +40,6 @@ function isContains(array, searchValue){
 
         console.log(`Iterasi Element ${element}`);
         
-
         if(element === searchValue){
             return true;
         }
@@ -50,6 +49,10 @@ function isContains(array, searchValue){
 }
 
 const array = [1,221,11,2,54,21,4354,76,22,22,1123];
-const searchValue = 22;
+const searchValue = 11;
 const found  = isContains(array, searchValue);
 console.log(found);
+
+
+
+
