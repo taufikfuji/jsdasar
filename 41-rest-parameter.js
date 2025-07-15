@@ -12,14 +12,13 @@ Rest Parameter hanya boleh berada di posisi paling akhir tidak boleh didepan ata
 function sum (name, ...data){
     let total = 0;
     for (const item of data) {
-
-        total += item
-        
+        total += item;
     }
 
-    console.log(`Total ${name}, is ${total}`);
+    console.log(`Total ${name} is ${total}`);
     
 }
 
-sum("Orange",10,100,20,20,50);
-sum("Apple",10,15,15);
+sum("Orange", 10,10,10,10,10);
+sum("Apple", 50,50,50,50);
+sum("Banana",...[10,20,10,10]);
