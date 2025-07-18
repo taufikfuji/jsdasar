@@ -11,10 +11,26 @@ FUNCTION BISA DI PANGGIL BERKALI KALI
 */
 
 
-function sayHelloWorld(){
-    console.log("HELLO BRO");
+// function sayHelloWorld(){
+//     console.log("HELLO BRO");
     
-};
+// };
 
-sayHelloWorld();
-sayHelloWorld();
+// sayHelloWorld();
+// sayHelloWorld();
+
+
+
+let inputUser = 100000;
+let inputDiskon = 10;
+
+function hitungDiskon(inputUser,inputDiskon) {
+
+    let hitung = (inputUser * inputDiskon) / 100;
+    let totalBayar = inputUser - hitung;
+    return totalBayar;
+    
+}
+
+let totalDiskon = hitungDiskon(inputUser,inputDiskon);
+console.log(totalDiskon);
