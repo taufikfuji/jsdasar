@@ -21,16 +21,10 @@ FUNCTION BISA DI PANGGIL BERKALI KALI
 
 
 
-let inputUser = 100000;
-let inputDiskon = 10;
-
-function hitungDiskon(inputUser,inputDiskon) {
-
-    let hitung = (inputUser * inputDiskon) / 100;
-    let totalBayar = inputUser - hitung;
-    return totalBayar;
-    
+const greeting = (name,address)=>{
+    let says = `Hello My Name is ${name} ${address}`;
+    return says;
 }
 
-let totalDiskon = hitungDiskon(inputUser,inputDiskon);
-console.log(totalDiskon);
+let result = greeting("FUJI TAUFUK", "Karawang");
+console.log(result);
