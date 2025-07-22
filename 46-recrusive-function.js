@@ -10,12 +10,14 @@
 
 // Ini adalah dengan function dengan loop biasa
 function factorial(value){
-    let result = 1; 
-    for (let i = 1; i <= value; i++) {
+    let result = 1;
+    for(let i = 1; i <= value; i++){
         result *= i;
     }
-       return result;
+
+    return result;
 }
+
 console.log(factorial(7));
 
 
