@@ -32,7 +32,8 @@
 
 
 //Destructering di function parameter
-function displayPerson({firstName,middleName,lastName}){
+{
+    function displayPerson({firstName,middleName,lastName}){
     console.log(firstName);
     console.log(middleName);
     console.log(lastName);
@@ -54,15 +55,20 @@ function sum([first,second]){
 console.log(sum([1,5]));
 console.log(sum([10,10]));
 
+}
 
 //Menggunakan nama variabel lain
 
 const person = {
-    firstName : "fuji",
-    lastName : "taufik"
-}
+    firstName : "PUTRI",
+    lastName : "RAHMAN"
+};
 
 let {
-     firstName : namaDepan,
+    firstName : namaDepan,
     lastName : namaBelakang
-}
+} = person;
+
+console.log(namaDepan);
+console.log(namaBelakang);
+
