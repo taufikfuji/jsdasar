@@ -10,3 +10,4 @@ function Person(firstName, lastName){
 const personSatu = new Person ("FUji","Taufik");
 personSatu.sayHello("Rahman");
 
+

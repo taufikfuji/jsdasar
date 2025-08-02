@@ -5,7 +5,6 @@ function Person(){
     this.lastName = "";
     this.sayHello = function (name){
         console.log(`Hello ${name} my name ${this.firstName}`);
-        
     }
 }
 
